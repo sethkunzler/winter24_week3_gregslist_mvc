@@ -15,7 +15,7 @@ export class Car {
     this.hasSalvagedTitle = data.hasSalvagedTitle
     // NOTE creates a new date object with the current date and time if no argument is passed to the date constructor
     // NOTE this date object has methods attached to it to format the date in various ways
-    this.listedAt = new Date()
+    this.listedAt = data.listedAt == undefined ? new Date() : new Date(data.listedAt)
   }
 
   get CarCardHTMLTemplate() {
