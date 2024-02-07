@@ -1,0 +1,54 @@
+<!-- This is My Houses View where the HTML for my house options menu will be stored -->
+<section class="container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 p-3">
+      <div class="card p-3">
+        <form>
+          <!-- this.year = data.year
+            this.city = data.city
+          this.bedrooms = data.bedrooms
+          this.bathrooms = data.bathrooms
+          this.sqft = data.sqft
+          this.price = data.price 
+          this.description = data.description
+          this.imgUrl = data.imgUrl -->
+          <!-- <div class="mb-3">
+            <label for="carMake">Make</label>
+            <input id="carMake" name="make" type="text" required minlength="3" maxlength="15">
+          </div> -->
+          <div class="my-3 ps-3">
+            <label for="houseCity">City, State</label>
+            <input id="houseCity" name="city" type="text" required minlength="10" maxlength="50">
+          </div>
+          <div class="mb-3 ps-3">
+            <label for="houseBedrooms"># of Bedrooms</label>
+            <input id="houseBedrooms" name="bedrooms" type="number" required min="1" max="8">
+          </div>
+          <div class="mb-3 ps-3">
+            <label for="houseBathrooms"># of Bathrooms</label>
+            <input id="houseBathrooms" name="bathrooms" type="number" required min="1" max="8">
+          </div>
+          <div class="mb-3 ps-3">
+            <label for="houseSqft">Feet<sup>2</sup>:</label>
+            <input id="houseSqft" name="sqft" type="number" required min="60" max="1000000">
+          </div>
+          <div class="mb-3 ps-3">
+            <label for="housePrice">Sales Price</label>
+            <input id="housePrice" name="price" type="number" required min="10000" max="1000000000">
+          </div>
+          <div class="mb-3 ps-3">
+            <label for="houseDescription">Description</label>
+            <input id="houseDescription" name="description" type="text" required minlength="50" maxlength="200">
+          </div>
+          <div class="mb-3 ps-3">
+            <label for="houseImgUrl">Image Link</label>
+            <input id="houseImgUrl" name="imgUrl" type="url" required minlength="22" maxlength="500">
+          </div>
+          <div class="my-3 d-flex justify-content-end px-5">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
