@@ -19,5 +19,6 @@ export const router = new Router([
     controllers: [CarsController],
     // NOTE filepath to our CarsView HTML file
     view: 'app/views/CarsView.html'
-  }
+  },
+  // TODO create route object for houses!
 ])
